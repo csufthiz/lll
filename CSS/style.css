@@ -1,0 +1,176 @@
+@import url(fonts.css);
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --mainCol: #000;
+    --ffAnton: "Anton";
+    --ffOpenSans: "OpenSans";
+}
+
+.container {
+    max-width: 1170px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+}
+
+ul {
+    list-style: none;
+}
+
+body {
+    font-family: "Anton";
+    color: #fff;
+    background: #fff;
+}
+
+/* ---------------------------------- */
+
+.header {
+    position: relative;
+}
+
+.header__img {
+    width: 100%;
+    object-fit: cover;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
+
+.header nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 57px;
+}
+
+.nav-box {
+    display: flex;
+    align-items: center;
+}
+
+.nav-box img {
+    margin-right: 69px;
+}
+
+.nav-box ul {
+    display: flex;
+    align-items: center;
+}
+
+.nav-box ul a {
+    margin-right: 40px;
+    font-family: "Anton";
+    font-size: 14px;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+}
+
+nav a {
+    font-family: "Anton";
+    font-size: 17px;
+    letter-spacing: 0.1em;;
+}
+
+.prew-info {
+    margin-top: 216px;
+}
+
+.prew-info p {
+    font-size: 30px;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+}
+
+.prew-info h1 {
+    font-size: 100px;
+    text-transform: uppercase;
+}
+
+.prew-info button { 
+    font-size: 17px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    width: 238px;
+    height: 57px;
+    border: 1px solid #fff;
+    background: none;
+    color: #fff;
+    font-family: "Anton";
+    cursor: pointer;
+    margin-bottom: 322px;
+
+}
+
+.main-box {
+    margin-top: 113px;
+}
+
+.main__title {
+    font-family: var(--ffAnton);
+    font-size: 50px;
+    color: var(--mainCol);
+    text-transform: uppercase;
+    margin-bottom: 58px;
+}
+.main-info__box h3{
+    color: #000;
+    font-family: var(--ffAnton);
+    margin-bottom: 19px;
+    font-size: 25px;
+
+}
+.main-info__box{
+    width: 564px;
+
+}
+.main-info__box p{
+    text-align: justify;
+    font-size: 16px;
+    font-family: var(--ffOpenSans);
+    line-height: 26px;
+    color: #000;
+
+}
+.main-info{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 67px;
+
+}
+.main-d-img{
+    display: flex;
+    justify-content: space-evenly;
+}
+.main-d-img img{
+    width: 270px;
+    height: 344px;
+
+ }
+.img-box img{
+    width: 578px;
+    height: 344px;
+ }
+.footer{
+    font-family: var(--ffOpenSans);
+    color: var(--mainCol);
+    display: flex;
+    margin-top: 114px;
+ 
+
+}
+.text2{
+    margin-left: 55px;
+}
